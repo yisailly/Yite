@@ -5,6 +5,7 @@ const server = http.createServer(app);
 import { Server } from "socket.io";
 import { Client } from "ssh2";
 import utf8 from "utf8";
+import { v4 } from "uuid";
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
