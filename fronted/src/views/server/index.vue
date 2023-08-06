@@ -179,7 +179,7 @@ import { SearchIcon, LinkIcon, SettingIcon, CloseIcon } from "tdesign-icons-vue-
 import { useRouter } from "vue-router"
 import io from "socket.io-client";
 
-var socket = io("ws://127.0.0.1:3000", {
+var socket = io("", {
     transports: ['websocket'],
     withCredentials: false
 })

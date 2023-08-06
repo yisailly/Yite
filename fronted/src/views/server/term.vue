@@ -32,7 +32,7 @@ const cols = ref(0)
 const rows = ref(0)
 const router = useRouter();
 const stateData = ref(history.state.data ? history.state.data : {})
-var socket = io("ws://127.0.0.1:3000", {
+var socket = io("", {
     transports: ['websocket'],
     withCredentials: false
 })
